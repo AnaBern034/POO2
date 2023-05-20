@@ -2,10 +2,7 @@ package Ex2;
 
 public class Main {
     public static void main(String[] args) {
-      Funcionario funcionario1= new Funcionario("marcia",11.11/11, 12000);
-       funcionario1.setNome(funcionario1.getNome());
-        System.out.println("ID "+funcionario1.getIdentificador()+" nome: "+funcionario1.getNome());
-
+      Funcionario funcionario1= new Funcionario("marcia",11.11/11);
 
     }
 }
